@@ -15,10 +15,11 @@ Community-driven music sharing site, based on Telescope.
   * for yourself: `git checkout -b yourname-test`
   * for collaborating: `git fetch & git checkout -b development origin/development`
   * make sure you're pulling and pushing to the correct branches
-5. IF you have stable code & have permission to push to the meteor repo:
+5. IF you have stable code & have permission to push to the meteor repo (staging environment):
   * you will need to create an account on meteor.com and have me give you permission to push to the repo
-  * `meteor deploy obscurous.meteor.com`
+  * `meteor deploy live-dj.meteor.com`
   * first time will require you to login w/ email and password when you deploy
+6. Modulus currently doesn't support collaborators on projects, so let me know when you want to me to deploy to prod.
 
 
 TELESCOPE

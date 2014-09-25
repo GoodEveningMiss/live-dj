@@ -1,3 +1,28 @@
+Live DJ
+==========
+Community-driven music sharing site, based on Telescope.
+
+1. clone this repo: `git clone git@github.com:GoodEveningMiss/live-dj.git`
+2. IF you understand git, you can set up Telescope as a remote to pull and merge future changes
+  * `cd live-dj & git remote add telescope git@github.com:TelescopeJS/Telescope.git`
+  * overwrite push url for telescope remote to prevent accidental pushing to Telescope repo: `git remote set-url --push telescope no-pushing`
+  * Telescope Documentation has a [useful page on updating](http://www.telesc.pe/docs/updating/)
+  * I can give you collaborator access to [my Telescope fork](https://github.com/GoodEveningMiss/Telescope) if you want to work on upstream contributions together.
+3. follow install directions at [Telescope Documentation](http://telesc.pe/docs)
+  * you might have to run `meteor update` before running `meteor` as instructed at the end, to install the meteor packages before attempting to use them
+  * you might have to change the permissions for the meteor packages installed: `chown -R YOURUSERNAME:YOURUSERNAME ~/.meteor/`
+4. set up a branch for development/playing around
+  * for yourself: `git checkout -b yourname-test`
+  * for collaborating: `git fetch & git checkout -b development origin/development`
+  * make sure you're pulling and pushing to the correct branches
+5. IF you have stable code & have permission to push to the meteor repo:
+  * you will need to create an account on meteor.com and have me give you permission to push to the repo
+  * `meteor deploy obscurous.meteor.com`
+  * first time will require you to login w/ email and password when you deploy
+
+
+TELESCOPE
+=========
 Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
 
 **Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
